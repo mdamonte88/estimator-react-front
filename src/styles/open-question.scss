@@ -1,0 +1,89 @@
+.open-question {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  .link {
+    color: $gray;
+    font-size: .8rem;
+    text-decoration: underline;
+
+    &:hover {
+      color: $black;
+    }
+  }
+}
+
+.input-decoration {
+  margin-bottom: 3rem;
+  margin-top: 2.3rem;
+  width: 100%;
+
+  input {
+    border: none;
+    color: $blue-gray;
+    font-size: 7em;
+    letter-spacing: 0.03em;
+    outline: none;
+    padding: .5rem 1rem;
+    text-align: center;
+    width: 100%;
+
+    &::-webkit-input-placeholder {
+      color: $gray-lightest;
+      font-weight: 300;
+    }
+
+    &::-moz-placeholder {  /* Firefox 19+ */
+      color: $gray-lightest;
+      font-weight: 300;
+    }
+
+    &:-moz-placeholder { /* Firefox 18- */
+      color: $gray-lightest;
+      font-weight: 300;
+    }
+
+    &:-ms-input-placeholder {
+      color: $gray-lightest;
+      font-weight: 300;
+    }
+  }
+
+  .decoration {
+    margin-top: -1rem;
+  }
+}
+
+.button-link {
+  border-radius: 1.5rem;
+  margin-bottom: 1.5rem;
+
+  button {
+    background-image: linear-gradient(-90deg, $spring-green 21%, $mint-green 100%);
+    border-radius: 1.5rem;
+    border-style: none;
+    color: $blue-gray;
+    cursor: pointer;
+    font-size: 1.8em;
+    padding: 1rem 3rem;
+
+    &:focus {
+      outline: none;
+    }
+
+    &:disabled {
+      cursor: default;
+      opacity: .2;
+    }
+
+    &:active {
+      box-shadow: inset 0 0 1rem $gray-light;
+    }
+
+    &:hover:enabled {
+      color: white;
+    }
+  }
+}

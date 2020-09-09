@@ -1,0 +1,57 @@
+.home-page {
+  align-items: center;
+  background-color: $black;
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+  max-width: none;
+  width: 100vw;
+}
+
+.title-intro {
+  color: $white;
+  font-size: 3em;
+  margin-bottom: 3rem;
+  text-align: center;
+  text-shadow: .0625rem .0625rem $gray-light;
+}
+
+.rootstrap-logo-intro {
+  height: 18.75rem;
+  width: 18.75rem;
+}
+@media not screen and (min-height: 600px) {
+  .paragraph-intro {
+      display: none;
+  }
+}
+
+.button-start-rmdiy {
+  background-color: $black;
+  border-color: $white;
+  border-radius: .75rem;
+  color: $white;
+  font-size: 1em;
+  margin-bottom: 3rem;
+  padding: .75rem 2.5rem;
+
+  &:hover {
+    background-color: $white;
+    color: $black;
+  }
+}
+
+.paragraph-intro {
+  bottom: 5rem;
+  color: $gray-light;
+  font-size: 1em;
+  max-width: 51.5rem;
+  text-align: center;
+}
+
+.center-items {
+  display: flex;
+  justify-content: center;
+}

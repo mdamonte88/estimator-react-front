@@ -1,0 +1,183 @@
+@import '~loaders.css/src/animations/ball-scale-multiple';
+@import "~bootstrap/scss/bootstrap";
+@import 'colors';
+@import 'category-sidebar';
+@import 'global';
+@import 'progress-bar';
+@import 'nav-back-close';
+@import 'build-it';
+@import 'general';
+@import 'boxes-decorated';
+@import 'header';
+@import 'link-decorated';
+@import 'open-question';
+@import 'feature-modules';
+@import 'screens';
+@import 'home-page';
+@import 'app';
+@import 'answer-box';
+@import 'questions';
+@import 'user-stories-for-category';
+@import 'title';
+@import 'setup';
+@import 'modal';
+@import 'login';
+@import 'signup';
+@import 'page-not-found';
+
+.fixed-button {
+  border: 3px solid $button-green;
+  bottom: 10%;
+  margin-right: -100px;
+  position: fixed;
+  right: 50%;
+  width: 20rem;
+  z-index: 1;
+}
+
+.loading-wrapper {
+  align-items: center;
+  display: flex;
+  height: 5rem;
+  justify-content: center;
+  margin: 0 auto;
+  width: 5rem;
+
+  // These two classes are required by react-loaders
+  .loader-hidden { display: none; }
+  .loader-active { display: block; }
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.custom-style {
+  margin: 10px;
+  padding: 20px;
+}
+
+.feature-module-item {
+  margin-bottom: 10px;
+}
+
+.typeStyle {
+  border: 1px solid $gray-type-style;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 80px;
+  padding: 80px;
+}
+
+.loader-page {
+  align-items: center;
+  background: $white;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  transition: all .3s ease;
+  width: 100%;
+  z-index: 25000;
+}
+
+.loader-page::before {
+  animation: rotarload 1s linear infinite;
+  border: 2px solid $blue-loader;
+  border-left: 2px solid $blue-loader;
+  border-radius: 50%;
+  border-top: 2px solid $blue-loader;
+  box-sizing: border-box;
+  content: "";
+  height: 60px;
+  position: absolute;
+  transform: rotate(0deg);
+  width: 60px;
+}
+
+@keyframes rotarload {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loader-page::after {
+  animation: rotarload 1s ease-out infinite;
+  border-left: 2px solid $blue-loader;
+  border-radius: 50%;
+  border-top: 2px solid $white;
+  box-sizing: border-box;
+  content: "";
+  height: 60px;
+  position: absolute;
+  transform: rotate(0deg);
+  width: 60px;
+}
+
+.module-details-modal {
+  margin: 30px;
+}
+
+.toggle-button-container {
+  align-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.backlog-details {
+  margin-left: 40%;
+}
+
+.card-content {
+  align-items: center;
+  display: block;
+  margin-left: inherit;
+}
+
+.card {
+  align-items: center;
+  display: flex;
+  width: auto;
+}
+
+.variation-content {
+  display: block;
+}
+
+.white-gradient {
+  background: linear-gradient(0deg, white, transparent 80%);
+  bottom: 0;
+  height: 150px;
+  position: fixed;
+  width: 100%;
+}
+
+.input-question {
+  border-width: 0;
+  color: $blue-gray;
+  flex: 1;
+  font-size: 70px;
+  height: 84px;
+  justify-content: center;
+  line-height: 48px;
+  margin-top: 117px;
+  text-align: center;
+  width: 600px;
+}
+
+.exit-questionary {
+  border: 2px solid $black;
+}
+
+.progress-bar-height {
+  height: 4px;
+}
+
+.progress-bar {
+  background-image: linear-gradient(-90deg, #23ffac 21%, #91ff7d 100%);
+}

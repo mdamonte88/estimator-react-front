@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>3BF29C91-FE2A-4909-9161-F8E066EBEC37</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="iphone-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="05a---Add-Features" transform="translate(-140.000000, -315.000000)" fill-rule="nonzero">
+            <g id="Group-15" transform="translate(126.000000, 209.000000)">
+                <g id="Categories-Column" transform="translate(0.000000, 14.000000)">
+                    <g id="Categories" transform="translate(0.000000, 52.000000)">
+                        <g id="Onboarding" transform="translate(10.000000, 35.000000)">
+                            <g id="Icon_Onboarding">
+                                <rect id="Rectangle" x="0.5" y="0.488120478" width="25" height="25"></rect>
+                                <path d="M15.2869758,5.98812048 L18.2869758,5.98812048 C18.8392606,5.98812048 19.2869758,6.43583573 19.2869758,6.98812048 L19.2869758,18.9881205 C19.2869758,19.5404052 18.8392606,19.9881205 18.2869758,19.9881205 L15.2869758,19.9881205" id="Path-5" stroke="#333B5B" stroke-linecap="round"></path>
+                                <path d="M4.5,13 L16.3653937,13" id="Path-4" stroke="#333B5B" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <polyline id="Triangle" stroke="#333B5B" stroke-linecap="round" stroke-linejoin="round" transform="translate(14.670017, 13.000000) rotate(-90.000000) translate(-14.670017, -13.000000) " points="17.9468687 11.3046235 14.6700173 14.6953765 11.3931659 11.3046235"></polyline>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

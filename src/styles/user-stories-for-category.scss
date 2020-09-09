@@ -1,0 +1,61 @@
+.user-stories-for-category {
+  font-size: .875em;
+  padding-bottom: 1.5rem;
+
+  .category {
+    color: $blue-gray;
+    font-size: 1.2em;
+    font-weight: 400;
+    padding-left: .3rem;
+  }
+
+  .decoration {
+    margin-top: -.5rem;
+  }
+
+  .price-symbol {
+    font-size: .8em;
+    font-weight: 300;
+  }
+
+  .user-stories {
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    margin-bottom: 1.5rem;
+
+    .user-stories-header {
+      align-items: center;
+      border-bottom: 1px solid $gray-light;
+      color: $blue-gray;
+      display: flex;
+      font-weight: 400;
+      justify-content: space-between;
+      padding: 1rem;
+    }
+
+    .user-story-content {
+      align-items: center;
+      border-bottom: 1px solid $gray-light;
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem;
+
+      .description {
+        color: $gray;
+        padding: 0 2rem;
+        width: 70%;
+      }
+
+      .name,
+      .price {
+        color: $blue-gray;
+        font-weight: 400;
+        width: 15%;
+      }
+
+      .price {
+        text-align: right;
+      }
+    }
+  }
+}

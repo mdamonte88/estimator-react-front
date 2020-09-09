@@ -1,0 +1,68 @@
+.sign-up {
+  margin-top: 2em;
+
+  span {
+    color: $red;
+    font-size: 0.8em;
+  }
+
+  &.sign-up-title {
+    background-image: url('../icons/rootstrap-isologo.svg');
+    background-position: right 2em center;
+    background-repeat: no-repeat;
+    background-size: 2em;
+    font-size: 2em;
+    height: 2em;
+    padding: 0.5em 2em;
+  }
+}
+
+.sign-up-button {
+  border-radius: 1.5rem;
+  margin-bottom: 0.6em;
+  margin-top: 6em;
+  text-align: center;
+
+  button {
+    background-image: linear-gradient(-90deg, $spring-green 21%, $mint-green 100%);
+    border-radius: 1.5rem;
+    border-style: none;
+    color: $blue-gray;
+    cursor: pointer;
+    padding: 1rem 3rem;
+
+    &:focus {
+      outline: none;
+    }
+
+    &:disabled {
+      cursor: default;
+      opacity: .2;
+    }
+
+    &:active {
+      box-shadow: inset 0 0 1rem $gray-light;
+    }
+
+    &:hover:enabled {
+      color: white;
+    }
+  }
+}
+
+
+.input-sign-up {
+  margin-bottom: 2rem;
+  width: 100%;
+
+  input {
+    border: 1px solid;
+    border-radius: 1.5rem;
+    color: $blue-gray;
+    font-size: 1em;
+    outline: none;
+    padding: .5rem 1rem;
+    text-align: center;
+    width: 100%;
+  }
+}

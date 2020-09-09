@@ -1,0 +1,153 @@
+@mixin box-outer-glow {
+  -webkit-box-shadow: 0rem 0rem 1.625rem -.0625rem $black-box-outer-glow;
+  -moz-box-shadow: 0rem 0rem 1.625rem -.0625rem $black-box-outer-glow;
+  box-shadow: 0rem 0rem 1.625rem -.0625rem $black-box-outer-glow;
+}
+
+.box-categories-list {
+  @include box-outer-glow;
+  height: 15rem;
+  margin-bottom: 1.5rem;
+  overflow: auto;
+  padding: .8rem 1.3rem .5rem 1.3rem;
+  position: relative;
+
+  a:hover { text-decoration: none }
+
+  .container-link {
+    bottom: 0%;
+    pointer-events: auto !important;
+    position: sticky;
+    width: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .link {
+    font-size: .65em;
+    letter-spacing: .001rem;
+
+    &:hover {
+      color: $gray;
+    }
+  }
+}
+
+.container-text {
+  color: $gray;
+  font-size: .8em;
+  font-weight: normal;
+  margin-top: 1rem;
+  padding-right: 1rem;
+}
+
+.box-categories-list,
+.box-categories-list::-webkit-scrollbar-track,
+.box-categories-list::-webkit-scrollbar-button,
+.box-categories-list::-webkit-scrollbar-corner,
+.box-obtain-product {
+  background-color: $white;
+}
+
+.box-categories-list::-webkit-scrollbar {
+  width: .5rem;
+}
+
+.box-categories-list::-webkit-scrollbar-thumb {
+  background-color: $background-gray;
+}
+
+.box-obtain-product {
+  margin-bottom: 1.5rem;
+  height: 8rem;
+  padding: 1.5rem;
+  position: relative;
+
+  .content-button-build {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .button-build {
+      background-color: $white;
+      border: .0625rem solid $black;
+      border-radius: 1.5rem;
+      color: $blue-gray;
+      cursor: pointer;
+      font-size: .8em;
+      padding: .6rem 1.1rem;
+  
+      @mixin button-hover-outer-glow {
+        -webkit-box-shadow: 0rem .3125rem 2.5625rem -.375rem $black-button-outer-glow;
+        -moz-box-shadow: 0rem .3125rem 2.5625rem -.375rem $black-button-outer-glow;
+        box-shadow: 0rem .3125rem 2.5625rem -.375rem $black-button-outer-glow;
+      }
+  
+      &:hover {
+        @include button-hover-outer-glow;
+        background-image: linear-gradient(-90deg, $spring-green 21%, $mint-green 100%);
+        border-style: none;
+        color: $blue-gray;
+      }
+    }
+  }
+
+  .title-box-obtain-product {
+    float: left;
+    font-size: .9em;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+
+.categories-list {
+  border-collapse: collapse;
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+  width: 100%;
+
+  .price-container {
+    display: inline;
+  }
+
+  td {
+    border-bottom: .0625rem solid $background-gray;
+    padding: .8125rem;
+  }
+
+  tr:hover {
+    background-color: $background-gray;
+  }
+
+  td:nth-child(1) {
+    text-align: left;
+  }
+
+  td:nth-child(2) {
+    text-align: right;
+  }
+}
+
+.style-text-free {
+  -webkit-border-radius: .5rem;
+  background-color:$white-green;
+  border: none;
+  border-radius: .5rem;
+  color: $watery-green;
+  display: inline;
+  font-size: .62em;
+  margin-left: .5rem;
+  padding: .2rem .4rem .22rem .4rem;
+}
+
+.app-info-general {
+  align-items: center;
+  display: flex;
+  float: left;
+  justify-content: center;
+}
+
+.content-name-platform {
+  float: right;
+}

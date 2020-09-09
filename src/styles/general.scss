@@ -1,0 +1,35 @@
+.background-page {
+  background: $background-gray;
+  height: auto;
+  margin-top: 0;
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.container-title {
+  margin-bottom: 1rem;
+}
+
+.container-sub-title {
+  margin-bottom: 3rem;
+}
+
+.row-box {
+  width: 100%;
+}
+
+.sub-title {
+  color: $gray;
+  font-size: 1.8em;
+  letter-spacing: .05rem;
+}
+
+.title {
+  color: $blue-gray;
+  font-size: 3.8em;
+  letter-spacing: .15rem;
+  margin-bottom: 0.8rem;
+}

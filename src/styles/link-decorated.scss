@@ -1,0 +1,41 @@
+.link-decorated {
+  color: $dark-gray;
+  cursor: pointer;
+  letter-spacing: .013rem;
+  margin-bottom: -.5rem;
+  opacity: .7;
+
+  &:hover {
+    color: $blue-gray;
+    font-weight: 400;
+    text-decoration: none;
+  }
+
+  .decoration {
+    color: $spring-green;
+    margin-left: -.3rem;
+    margin-top: -.5rem;
+    visibility: hidden;
+  }
+
+  &.active {
+    color: $blue-gray;
+    pointer-events: none;
+    opacity: 1;
+
+    .label {
+      font-weight: 400;
+    }
+
+    .decoration {
+      visibility: visible;
+    }
+  }
+
+  .label {
+    font-size: 1.5rem;
+    font-weight: 300;
+    position: relative;
+    z-index: 10;
+  }
+}

@@ -1,0 +1,132 @@
+.side-bar {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+input.search-input {
+  border: none;
+  border-bottom: 1px solid #EFEDED;
+  padding-bottom: 13px;
+  padding-left: .3em;
+  font-size: 1.6em;
+  line-height: 1.9rem;
+  font-weight: 300;
+  letter-spacing: -0.13px;
+  width: 90%;
+}
+
+input.search-input::placeholder {
+  color: rgba(118,118,118,0.49);
+}
+
+.close-search-input {
+  cursor: pointer;
+  font-size: 1.8rem;
+  line-height: 22px;
+  position: absolute;
+  top: 0;
+  right: 2.5rem;
+}
+
+.category {
+  color: black;
+  font-size: 1.6em;
+  font-weight: 300;
+  letter-spacing: -0.13px;
+  line-height: 1.9rem;
+
+  .nav-link {
+    padding: 0.7rem 1rem;
+  
+    .icon-category {
+      filter: alpha(opacity=65); /* For IE8 and earlier */
+      margin-left: .2rem;
+      padding-left: 3.3rem;
+      opacity: 0.65;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  
+    &.selected-category {
+      background-image: linear-gradient(-90deg, white 21%, #f4f5f7 100%);
+      border: .2rem solid $spring-green;
+      border-radius: 31.5px;
+      padding: 0.5rem 1rem;
+      
+      .icon-category {
+        margin-left: 0;
+        opacity: 1;
+      }
+    
+      span {
+        opacity: 1;
+      }
+    }
+  }
+  
+  &:nth-child(1) .icon-category{
+    background: url('../icons/categories/icon_All.png') no-repeat 4px;
+  }
+
+  &:nth-child(2) .icon-category{
+    background: url('../icons/categories/icon_onboarding.png') no-repeat 4px;
+  }
+
+  &:nth-child(3) .icon-category{
+    background: url('../icons/categories/icon_social.png') no-repeat 4px;
+  }
+
+  &:nth-child(4) .icon-category{
+    background: url('../icons/categories/icon_seach&discover.png') no-repeat 4px;
+  }
+
+  &:nth-child(5) .icon-category{
+    background: url('../icons/categories/icon_shop.png') no-repeat 4px;
+  }
+
+  &:nth-child(6) .icon-category{
+    background: url('../icons/categories/icon_businessTools.png') no-repeat 4px;
+  }
+
+  &:nth-child(7) .icon-category{
+    background: url('../icons/categories/icon_marketPlace.png') no-repeat 4px;
+  }
+
+  &:nth-child(8) .icon-category{
+    background: url('../icons/categories/icon_location.png') no-repeat 4px;
+  }
+
+  &:nth-child(9) .icon-category{
+    background: url('../icons/categories/icon_communication.png') no-repeat 4px;
+  }
+
+  &:nth-child(10) .icon-category{
+    background: url('../icons/categories/icon_content.png') no-repeat 4px;
+  }
+
+  &:nth-child(11) .icon-category{
+    background: url('../icons/categories/icon_blockchain.png') no-repeat 4px;
+  }
+
+  &:nth-child(12) .icon-category{
+    background: url('../icons/categories/icon_videoimage.png') no-repeat 4px;
+  }
+
+  &:nth-child(13) .icon-category{
+    background: url('../icons/categories/icon_crm.png') no-repeat 4px;
+  }
+
+  &:nth-child(14) .icon-category{
+    background: url('../icons/categories/icon_3rdParty.png') no-repeat 4px;
+  }
+
+  &:nth-child(15) .icon-category{
+    background: url('../icons/categories/icon_misc.png') no-repeat 4px;
+  }
+
+  span {
+    opacity: 0.65;
+    filter: alpha(opacity=65); /* For IE8 and earlier */
+    vertical-align: text-bottom;
+  }
+}

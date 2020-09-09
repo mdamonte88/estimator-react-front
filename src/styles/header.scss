@@ -1,0 +1,126 @@
+.container-header {
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+  color: $gray;
+  font-size: .8em;
+  min-height: 3.1rem;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+  padding: .5rem 2rem;
+  @media not screen and (min-width: 700px) {
+    .price {
+      font-size: .8rem;
+    }
+    .price-value {
+      font-size: 1rem;
+    }
+    .button {
+      margin-right: 1rem;
+      padding: .3rem .9rem;
+      white-space: nowrap;
+    }
+    .general-row {
+      display: flex;
+      justify-content: center;
+    }
+    .items {
+      &-end {
+        display: flex;
+        justify-content: flex-end;
+      }
+      &-middle {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+  @media only screen and (min-width: 700px) {
+    .price {
+      font-size: 1rem;
+    }
+    .price-value{
+      font-size: 1rem;
+    }
+    .button {
+      margin-right: 2.4rem;
+      padding: .6rem 1.8rem;
+      white-space: nowrap;
+    }
+    .general-row {
+      display: flex;
+      justify-content: space-between;
+    }
+    .items {
+      &-end {
+        display: flex;
+        justify-content: flex-end;
+      }
+      &-middle {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+  .pad-top-down {
+    padding-top: 1rem;
+    &.shrink {
+      max-width: 13rem;
+    }
+  }
+  .price {
+    color: $blue-gray;
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 2.2rem;
+    padding-right: .5rem;
+    white-space: nowrap;
+  }
+  .price-currency {
+    color: $blue-gray;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+    white-space: nowrap;
+  }
+  .price-value{
+    color: $blue-gray;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+    padding-right: 2.4rem;
+    white-space: nowrap;
+  }
+}
+
+.dropdown-avatar {
+  height: 3.4rem;
+  width: 3.4rem;
+
+  &.logged-in {
+    background: url('../icons/avatar.svg') left center no-repeat;
+  }
+
+  &.logged-out {
+    background: url('../icons/avatarOut.svg') left center no-repeat;
+  }
+}
+
+.arrow-dropdown {
+  line-height: 0;
+  margin-left: 1.1em;
+}
+
+.modal-container {
+  margin-top: 4em;
+  @media screen and (max-width: 38em){
+    width: fit-content;
+    position: absolute;
+  }
+}
+
+.price-build-icons {
+  align-items: center;
+  display: flex;
+  justify-content: end;
+}

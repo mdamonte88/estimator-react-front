@@ -1,0 +1,45 @@
+.page-not-found {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+  img {
+    height: 10em;
+    width: 11em;
+    @media screen and (max-width: 43em){
+      height: 5em;
+      width: 5em;
+    }
+  }
+
+  .logo-header { width: 17em; }
+
+  h1 {
+    color: $blue-not-found;
+    font-size: 7em;
+    text-align: left;
+  }
+
+  h2 {
+    color: $gray-not-found;
+    font-size: 2em;
+    text-align: left;
+  }
+
+  h5 {
+    color: $joke-not-found;
+    font-size: .7em;
+    margin-top: 5em;
+    text-align: left;
+  }
+
+  .thumb-down { align-self: center; }
+
+  .end-info-not-found {
+    margin-top: 3em;
+
+    .go-back {
+      color: $link-not-found;
+      font-size: 2em;
+    }
+  }
+}

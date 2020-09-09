@@ -1,0 +1,43 @@
+<svg width="23px" height="23px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="29.3670997%" y1="100%" x2="54.4702423%" y2="36.1415578%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="32" height="32" rx="16"></rect>
+        <pattern id="pattern-4" width="258" height="258" x="-258" y="-258" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-5"></use>
+        </pattern>
+        <linearGradient x1="56.1264957%" y1="11.9776745%" x2="62.2470342%" y2="94.4865347%" id="linearGradient-6">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#04EC81" offset="100%"></stop>
+        </linearGradient>
+        <path d="M16.4,18.4 L16.4,18.4 C24.1319865,18.4 30.4,24.6680135 30.4,32.4 L30.4,32.4 C30.4,40.1319865 24.1319865,46.4 16.4,46.4 L16.4,46.4 C8.6680135,46.4 2.4,40.1319865 2.4,32.4 L2.4,32.4 C2.4,24.6680135 8.6680135,18.4 16.4,18.4 Z" id="path-7"></path>
+        <pattern id="pattern-8" width="512" height="512" x="-509.6" y="-493.6" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-9"></use>
+        </pattern>
+    </defs>
+    <g id="📱-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04b---Screen-Violet" transform="translate(-1337.000000, -13.000000)">
+            <g id="Group-3" transform="translate(56.000000, 10.000000)">
+                <g id="Group-8" transform="translate(1282.000000, 4.000000)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <g id="Rectangle-5" fill-rule="nonzero">
+                        <use fill="#FFFFFF" xlink:href="#path-2"></use>
+                        <use fill-opacity="0.044626" fill="url(#pattern-4)" xlink:href="#path-2"></use>
+                        <rect stroke="#DCDCDC" stroke-width="1" fill="url(#linearGradient-1)" fill-rule="evenodd" x="-0.5" y="-0.5" width="33" height="33" rx="16.5"></rect>
+                    </g>
+                    <rect id="Rectangle-5-Copy-2" stroke="#333B5B" fill="#333B5B" mask="url(#mask-3)" x="12.5" y="8.5" width="7" height="7" rx="3.5"></rect>
+                    <g id="Rectangle-5-Copy-3" fill-rule="nonzero" mask="url(#mask-3)">
+                        <use fill="#02F195" xlink:href="#path-7"></use>
+                        <use fill="url(#linearGradient-6)" xlink:href="#path-7"></use>
+                        <use fill-opacity="0.67430933" fill="url(#pattern-8)" style="mix-blend-mode: soft-light;" xlink:href="#path-7"></use>
+                        <path stroke="#333B5B" stroke-width="1" d="M16.4,18.9 C8.94415588,18.9 2.9,24.9441559 2.9,32.4 C2.9,39.8558441 8.94415588,45.9 16.4,45.9 C23.8558441,45.9 29.9,39.8558441 29.9,32.4 C29.9,24.9441559 23.8558441,18.9 16.4,18.9 Z" stroke-linejoin="square"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

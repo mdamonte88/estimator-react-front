@@ -1,0 +1,53 @@
+.setup {
+  font-family: Helvetica, 'Open Sans', Roboto, Arial, sans-serif;
+  font-size: .87rem;
+
+  .setup-title {
+    color: $blue-gray;
+    font-size: 2.3rem;
+    letter-spacing: -.05rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .list-group-item {
+    border-width: 0;
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+    margin-bottom: .625rem;
+
+    .question {
+      float: left;
+
+      &-title {
+        color: $blue-gray;
+      }
+
+      &-description {
+        color: $dark-gray;
+        margin-top: .5em;
+      }
+
+      &-answer {
+        color: $blue-gray;
+        margin: .625rem 0;
+        text-align: right;
+      }
+    }
+  }
+
+  .retake-link {
+    background-image: url('../icons/refresh.svg');
+    background-repeat: no-repeat;
+    color: $blue-gray;
+    display: flex;
+    font-size: 1.2rem;
+    margin: 1.875rem auto;
+    padding-left: 2.25rem;
+    width: max-content;
+
+    &:hover {
+      color: $black;
+      text-decoration: underline;
+    }
+  }
+}
