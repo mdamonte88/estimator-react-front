@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'reactstrap';
 import Link from 'react-router-dom/Link';
 
 import Status from '../components/routes/Status';
-import rootstrapLogo from '../icons/rootstrap-animated-logo.svg';
+import bludcodeLogo from '../icons/rootstrap-animated-logo.svg';
 import thumbDown from '../icons/thumb_down.svg';
 import routes from '../constants/routesPaths';
 
@@ -13,7 +13,7 @@ const NotFoundPage = () => (
     <Container>
       <Row className="page-not-found">
         <Col xs={12} className="logo-header">
-          <img src={rootstrapLogo} alt="logo" />
+          <img src={bludcodeLogo} alt="logo" />
         </Col>
         <Col xs={{ size: 6, offset: 1 }}>
           <h1> Oops ! </h1>

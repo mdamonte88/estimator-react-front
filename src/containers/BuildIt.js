@@ -218,7 +218,7 @@ class BuildIt extends React.Component {
               <Col className="col-lg-4 content-button-build">
                 <Button className="button-build" onClick={this.toggle}>Contact Us</Button>
                 <Modal isOpen={modal} className="modal_contact_us">
-                  <ModalHeader>Contact Rootstrap</ModalHeader>
+                  <ModalHeader>Contact Bludcode</ModalHeader>
                   <ModalBody>
                     <Form>
                       <FormGroup>

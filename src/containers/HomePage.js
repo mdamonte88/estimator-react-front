@@ -2,13 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Container, Row, Col } from 'reactstrap';
 import routes from '../constants/routesPaths';
-import rootstrap from '../images/rootstrap.png';
+import bludcode from '../images/bludcode.png';
 
 const HomePage = () => (
   <Container className="home-page">
     <Row className="center-items">
       <Col>
-        <img src={rootstrap} alt="Rootstrap Logo" className="rootstrap-logo-intro" />
+        <img src={bludcode} alt="Bludcode Logo" className="bludcode-logo-intro" />
       </Col>
     </Row>
     <Row>
@@ -26,7 +26,7 @@ const HomePage = () => (
     <Row>
       <Col>
         <p className="paragraph-intro">
-          Rootstrap’s Roadmapping is a process where we dive deep into the concept for your product,
+        Bludcode Roadmapping is a process where we dive deep into the concept for your product,
           design a solution that solves the core problem while staying lean, and prepare you with everything
           you need to develop your product the right way. At the end of a Roadmapping session,
           you’ll come out with a clickable prototype, a step-by-step blueprint for development,

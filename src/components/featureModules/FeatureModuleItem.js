@@ -57,7 +57,7 @@ class FeatureModuleItem extends Component {
       >
         {isSuggested && <div className="features-suggested-icon"> <div className="star" /> </div>}
         <div className="app-module-container" onClick={this.openModalInComponent} style={style}>
-          <img src={defaultModalImage} className="app-module-image" alt="Rootstrap Module" />
+          <img src={defaultModalImage} className="app-module-image" alt="Bludcode Module" />
           { this.state.isHovering &&
             <div className="trash-button-container">
               <div
